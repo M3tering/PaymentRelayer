@@ -8,7 +8,7 @@ import {AccessControl} from "@openzeppelin/contracts@5.0.2/access/AccessControl.
 
 /// @custom:security-contact info@whynotswitch.com
 contract PaymentRelayer is Pausable, AccessControl {
-    address public constant TBA_IMPLEMENTATION = 0xf52d861E8d057bF7685e5C9462571dFf236249cF; // ToDo: add actual M3terPayableTBA
+    address public constant TBA_IMPLEMENTATION = 0x8ad12E4ac066f7Cb38B0e0a6F3c60e37e0CF7508;
     address public constant TBA_REGISTRY = 0x000000006551c19487814612e58FE06813775758;
     address public constant M3TER = 0x39fb420Bd583cCC8Afd1A1eAce2907fe300ABD02;
     uint256 public constant GNOSIS_CHAIN_ID = 100;
